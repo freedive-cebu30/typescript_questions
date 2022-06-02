@@ -2,7 +2,7 @@ modulus(5)
 modulus(7)
 modulus(26)
 
-function modulus(num: number){
+function modulus(num: number): void {
    if (num > 25) {
      console.log(num)
    } else {
