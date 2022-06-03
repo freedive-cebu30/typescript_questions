@@ -1,4 +1,4 @@
-let message = checkAlcohol(19)
+let message: string = checkAlcohol(19)
 console.log(`あなたの場合は、お酒は${message}です`)
   
 message = checkAlcoholIf(20)
