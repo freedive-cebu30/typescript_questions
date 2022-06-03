@@ -5,7 +5,6 @@ showSeason(12, 'japan')
 showSeason(5, 'ph')
 showSeason(6, 'ph')
 
-
 function showSeason(month: number, country: string): void {
   if (country == 'japan') {
     switch (month) {
