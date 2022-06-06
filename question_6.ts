@@ -10,7 +10,7 @@ message = fizzBuzz(16)
 console.log(message)
 
 
-function fizzBuzz(n: number) {
+function fizzBuzz(n: number): string {
   let message  = 'Nothing'
   
   if (n % 15 == 0) {
